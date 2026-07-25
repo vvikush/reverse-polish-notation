@@ -2,11 +2,11 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror -O2 -std=c11
 LDFLAGS = -lm
 
-BUILD = ../build
+BUILD = build
 TARGET = $(BUILD)/graph
 
-SRC = src/graph.c src/lexer_and_check.c src/shunting_yard.c src/stack.c src/rpn.c
-HDR = src/graph.h src/shunting_yard.h src/lexer_and_check.h src/token.h src/stack.h src/rpn.h
+SRC = src/graphics.c src/lexer_and_check.c src/shunting_yard.c src/stack.c src/rpn.c
+HDR = src/graphics.h src/shunting_yard.h src/lexer_and_check.h src/token.h src/stack.h src/rpn.h
 
 all: $(TARGET)
 
