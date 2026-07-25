@@ -96,7 +96,7 @@ The executable file is created in the build directory according to the Makefile 
 ## Run
 
 ```bash
-../build/graph
+./build/graph
 ```
 
 Then enter a mathematical expression, for example:
